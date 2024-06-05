@@ -64,7 +64,7 @@ def takecommand():
     with sr.Microphone() as source:
         print("Listening...") #using this as source microphone
     
-        r.pause_threshold=2 #if i stop for 1 sec, it will give its response
+        r.pause_threshold=2 #if i stop for 2 sec, it will give its response
         audio=r.listen(source)
     
     #there can be errors while recognizing soo
