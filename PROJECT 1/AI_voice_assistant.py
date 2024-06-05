@@ -1,3 +1,12 @@
+'''
+AUTHOR:KRISTAL SHRESTHA
+DATE:6/5/2024
+PURPOSE:LEARNING SIMPLE AI VOICE ASSISTANT 
+'''
+
+
+
+
 import pyttsx3
 import datetime
 import speech_recognition as sr
