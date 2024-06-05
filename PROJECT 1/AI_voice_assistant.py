@@ -47,13 +47,13 @@ def wishme():
         speak("GOOD MORNING KRISTAL! ")
     
     elif hour >=12 and hour<18:
-        speak("GOOD EVENING KRISTAL! ")
+        speak("GOOD AFTERNOON KRISTAL! ")
 
     elif hour >=18 and hour <21:
-        speak("GOOD EVENING !")
+        speak("GOOD EVENING KRISTAL !")
 
     else:
-        speak("WONDERFUL NIGHT")
+        speak("WONDERFUL NIGHT KRISTAL")
         
     speak("I AM JARVIS , KRISTAL's AI VOICE ASSISTANT, HOW CAN I HELP YOU?")    
     
