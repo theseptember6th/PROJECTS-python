@@ -1,10 +1,18 @@
+"""
+AUTHOR:KRISTAL SHRESTHA
+DATE:6/6/2024
+PURPOSE:DEMO FLAPPYBIRD
+"""
+
+
 import random
+
 import sys
 #general basic pygame imports
 import pygame
 from pygame.locals import * 
 
-#GLOBAL VARIABLES FOR THE GAME
+#GLOBAL VARIABLES FOR THE Gpng
 FPS=32
 SCREENWIDTH=289
 SCREENHEIGHT=511
@@ -251,16 +259,16 @@ if __name__ == "__main__":
     pygame.display.set_caption("FLAPPY BIRD BY KRISTAL")#caption
 
     GAME_SPRITES['numbers']= (
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\0.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\1.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\2.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\3.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\4.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\5.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\6.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\7.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\8.jpg').convert_alpha(),
-        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\9.jpg').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\0.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\1.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\2.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\3.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\4.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\5.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\6.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\7.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\8.png').convert_alpha(),
+        pygame.image.load(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\images\9.png').convert_alpha(),
     )
 
     GAME_SPRITES['background']=pygame.image.load(BACKGROUND).convert()
@@ -277,11 +285,11 @@ if __name__ == "__main__":
     )
 
     #GAME SOUNDS
-    GAME_SOUNDS['die']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\end.wav')
-    GAME_SOUNDS['point']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\winningcoin.wav')
-    GAME_SOUNDS['wing']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\jumps.wav')
+    GAME_SOUNDS['die']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\die.wav')
+    GAME_SOUNDS['point']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\point.wav')
+    GAME_SOUNDS['wing']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\wing.wav')
     GAME_SOUNDS['hit']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\hit.wav')
-    GAME_SOUNDS['swoosh']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\swoosh.mp3')
+    GAME_SOUNDS['swoosh']=pygame.mixer.Sound(r'C:\Users\Kristal\Desktop\PROJECTS-python\PROJECT 2\sounds\swoosh.wav')
     #the sound of a bird flying past  can be described as a "swoosh".
 
 
