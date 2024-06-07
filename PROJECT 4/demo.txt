@@ -1,0 +1,55 @@
+ audio=AudioSegment.from_mp3('Indian-Railways_Announcement.mp3')
+
+    ############### HINDI ###############
+
+    # Part-1 start music
+    start=0000
+    finish=1550
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-1.mp3',format="mp3")
+
+     # Part-12 attention please...train no
+    start=36950
+    finish=39800
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-12.mp3',format="mp3")
+
+    # Part-13 train no and name
+
+    # Part-14 from
+    start=44200
+    finish=44750
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-14.mp3',format="mp3")
+
+    # Part-15 from city
+
+    # Part-16 to
+    start=45600
+    finish=46150
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-16.mp3',format="mp3")
+
+    # Part-17 to city
+
+    # Part-18 via
+    start=47100
+    finish=47650
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-18.mp3',format="mp3")
+
+    # Part-19 via city
+ 
+    # Part-20 is arriving...platform no
+    start=49000
+    finish=52100
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-20.mp3',format="mp3")
+
+    # Part-21 platform no
+
+    # Part-22 thank you...end music
+    start=52800
+    finish=54800
+    audioProcessed=audio[start:finish]
+    audioProcessed.export('Part-22.mp3',format="mp3")
